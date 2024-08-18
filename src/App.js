@@ -92,7 +92,7 @@ function App() {
       }
     }
 
-    // Controllo sconti orario e weekend e bambini
+    // Controllo sconti orario, weekend e bambini
     if (!scontoPersonale && !scontoGruppo) {
 
       if (cliente.age < 12) {
