@@ -13,3 +13,4 @@ sconto si applica per il weekend indipendentemente dall'ora
 4 anni, del 20% se è sotto i 12 anni
 - Il prezzo totale della pizza non può scendere sotto i 5€
 
+![screenshot software](https://github.com/Mirkocole/pizzabooking/blob/main/Screenshot.png)
