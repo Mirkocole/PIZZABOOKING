@@ -18,11 +18,6 @@ function App() {
   const [customers, setCustomers] = useState([]);
 
 
-  // Ordinazione effettuata
-  // const [order, setOrder] = useState({
-  //   customers: customers,
-  //   date: new Date().toLocaleTimeString('it-IT'),
-  // })
 
 
   // Cliente dal form
@@ -76,7 +71,7 @@ function App() {
       scount.price = cliente.disability ? scount.price - ((scount.price / 100) * 90) : scount.price;
     }
 
-    // Controllo sconti pre gruppi
+    // Controllo sconti per gruppi
     if (cliente.group >= 15) {
       scontoGruppo = true;
 
